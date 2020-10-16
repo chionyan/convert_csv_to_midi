@@ -1,0 +1,133 @@
+C: &C 60
+Cs: &Cs 61
+Df: &Df 61
+D: &D 62
+Ds: &Ds 63
+Ef: &Ef 63
+E: &E 64
+F: &F 65
+Fs: &Fs 66
+Gf: &Gf 66
+G: &G 67
+Gs: &Gs 68
+Af: &Af 68
+A: &A 69
+As: &As 70
+Bf: &Bf 70
+B: &B 71
+C1: &C1 72
+Cs1: &Cs1 73
+Df1: &Df1 73
+D1: &D1 74
+Ds1: &Ds1 75
+Ef1: &Ef1 75
+E1: &E1 76
+F1: &F1 77
+Fs1: &Fs1 78
+Gf1: &Gf1 78
+G1: &G1 79
+Gs1: &Gs1 80
+Af1: &Af1 80
+A1: &A1 81
+As1: &As1 82
+Bf1: &Bf1 82
+B1: &B1 83
+
+
+code:
+  C: [*C, *E, *G]
+  C7: [*C, *E, *G, *Bf]
+  Cm: [*C, *Ef, *G]
+  Cm7: [*C, *Ef, *G, *Bf]
+  C#: [*Cs, *F, *Gs]
+  C#7: [*Cs, *F, *Gs, *B]
+  C#m: [*Cs, *E, *Gs]
+  C#m7: [*Cs, *E, *Gs, *B]
+  D: [*D, *Fs, *A]
+  D7: [*D, *Fs, *A, *C1]
+  Dm: [*D, *F, *A]
+  Dm7: [*D, *F, *A, *C1]
+  D#: [*Ds, *G, *As]
+  D#7: [*Ds, *G, *As, *Df1]
+  D#m: [*Ds, *Gf, *As]
+  D#m7: [*Ds, *Gf, *As, *Df1]
+  E: [*E, *Gs, *B]
+  E7: [*E, *Gs, *B, *D1]
+  Em: [*E, *G, *B]
+  Em7: [*E, *G, *B, *D1]
+  F: [*F, *A, *C1]
+  F7: [*F, *A, *C1, *Ef1]
+  Fm: [*F, *Af, *C1]
+  Fm7: [*F, *Af, *C1, *Ef1]
+  F#: [*Fs, *As, *Cs1]
+  F#7: [*Fs, *As, *Cs1, *E1]
+  F#m: [*Fs, *A, *Cs1]
+  F#m7: [*Fs, *A, *Cs1, *E1]
+  G: [*G, *B, *D1]
+  G7: [*G, *B, *D1, *F1]
+  Gm: [*G, *Bf, *D1]
+  Gm7: [*G, *Bf, *D1, *F1]
+  G#: [*Gs, *C1, *Ds1]
+  G#7: [*Gs, *C1, *Ds1, *Gf1]
+  G#m: [*Gs, *B, *Ds1]
+  G#m7: [*Gs, *B, *Ds1, *Gf1]
+  A: [*A, *Cs1, *E1]
+  A7: [*A, *Cs1, *E1, *G1]
+  Am: [*A, *C1, *E1]
+  Am7: [*A, *C1, *E1, *G1]
+  A#: [*As, *D1, *F1]
+  A#7: [*As, *D1, *F1, *Af1]
+  A#m: [*As, *Df1, *F1]
+  A#m7: [*As, *Df1, *F1, *Af1]
+  B: [*B, *Ds1, *Fs1]
+  B7: [*B, *Ds1, *Fs1, *A1]
+  Bm: [*B, *D1, *Fs1]
+  Bm7: [*B, *D1, *Fs1, *A1]
+  CM7: [*C, *E, *G, *B]
+  CmM7: [*C, *Ef, *G, *B]
+  Cdim: [*C, *Ef, *Gf]
+  Cdim7: [*C, *Ef, *Gf, *A]
+  C#M7: [*Cs, *F, *Gs, *C1]
+  C#mM7: [*Cs, *E, *Gs, *C1]
+  C#dim: [*Cs, *E, *G]
+  C#dim7: [*Cs, *E, *G, *Bf]
+  DM7: [*D, *Fs, *A, *Cs1]
+  DmM7: [*D, *F, *A, *Cs1]
+  Ddim: [*D, *F, *Af]
+  Ddim7: [*D, *F, *Af, *B]
+  D#M7: [*Ds, *G, *As, *D1]
+  D#mM7: [*Ds, *Gf, *As, *D1]
+  D#dim: [*Ds, *Gf, *A]
+  D#dim7: [*Ds, *Gf, *A, *C1]
+  EM7: [*E, *Gs, *B, *Ds1]
+  EmM7: [*E, *G, *B, *Ds1]
+  Edim: [*E, *G, *Bf]
+  Edim7: [*E, *G, *Bf, *Df1]
+  FM7: [*F, *A, *C1, *E1]
+  FmM7: [*F, *Af, *C1, *E1]
+  Fdim: [*F, *Af, *B]
+  Fdim7: [*F, *Af, *B, *D1]
+  F#M7: [*Fs, *As, *Cs1, *F1]
+  F#mM7: [*Fs, *A, *Cs1, *F1]
+  F#dim: [*Fs, *A, *C1]
+  F#dim7: [*Fs, *A, *C1, *Ef1]
+  GM7: [*G, *B, *D1, *Fs1]
+  GmM7: [*G, *Bf, *D1, *Fs1]
+  Gdim: [*G, *Bf, *Df1]
+  Gdim7: [*G, *Bf, *Df1, *E1]
+  G#M7: [*Gs, *C1, *Ds1, *G1]
+  G#mM7: [*Gs, *B, *Ds1, *G1]
+  G#dim: [*Gs, *B, *D1]
+  G#dim7: [*Gs, *B, *D1, *F1]
+  AM7: [*A, *Cs1, *E1, *Gs1]
+  AmM7: [*A, *C1, *E1, *Gs1]
+  Adim: [*A, *C1, *Ef1]
+  Adim7: [*A, *C1, *Ef1, *Gf1]
+  A#M7: [*As, *D1, *F1, *A1]
+  A#mM7: [*As, *Df1, *F1, *A1]
+  A#dim: [*As, *Df1, *E1]
+  A#dim7: [*As, *Df1, *E1, *G1]
+  BM7: [*B, *Ds1, *Fs1, *As1]
+  BmM7: [*B, *D1, *Fs1, *As1]
+  Bdim: [*B, *D1, *F1]
+  Bdim7: [*B, *D1, *F1, *Af1]
