@@ -4,12 +4,16 @@ require './lib/midilib'
 require './code_list'
 require './output_midi'
 
+# 読み込みたいcsvファイルをルートディレクトリ以下に置いて、パス名を変更してください
+CSV_FILE_NAME = 'sample.csv'
+BPM = '120'
+
 seq = MIDI::Sequence.new()
 track = MIDI::Track.new(seq)
 seq.tracks << track
-track.events << MIDI::Tempo.new(MIDI::Tempo.bpm_to_mpq(179))
+track.events << MIDI::Tempo.new(MIDI::Tempo.bpm_to_mpq(BPM.to_i))
 
-csv_file = 'ras.csv'
+csv_file = CSV_FILE_NAME
 
 codes = CSV.read(csv_file).flatten.compact
 codes.map.with_index { |code, i| codes[i] = codes[i-1] if code.empty? }

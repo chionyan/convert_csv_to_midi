@@ -6,7 +6,8 @@ class OutputMidi
   private
 
   def self.directory
-    '/Users/ariariarissa/Downloads/'
+    # ダウンロード先のパス名に変更してください
+    '~/Downloads/'
   end
 
   def self.filename
